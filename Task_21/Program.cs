@@ -19,6 +19,6 @@ int Bz = Convert.ToInt32(Console.ReadLine());
 
 // d=√(xb​—xa​)2+(yb​—ya​)2+(zb​—za​)2
 
-double D = Math.Round(Math.Sqrt(Math.Pow(Bx-Ax,2) + Math.Pow(By-Ay,2) + Math.Pow(Bz-Az,2)), 2);
+double d = Math.Round(Math.Sqrt(Math.Pow(Bx-Ax,2) + Math.Pow(By-Ay,2) + Math.Pow(Bz-Az,2)), 2);
 
-Console.WriteLine($"Расстояние между точками: " +D);
+Console.WriteLine($"Расстояние между точками: " +d);
